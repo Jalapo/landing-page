@@ -42,6 +42,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     flex: 1;
+    padding-right: 80px;
 }
 
 .hero-text {
@@ -90,4 +91,95 @@ body {
     font-weight: bolder;
     color: #1F2937;
     text-align: center;
+    padding: 50px;
+}
+
+.body-images {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.body-image-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.body-img {
+    width: 150px;
+    height: 150px;
+    border: 4px solid rgba(80, 160, 255, 1);
+    border-radius: 16px;
+}
+
+.body-img-subtext {
+    width: 150px;
+    text-align: center;
+    margin: 8px 10px 136px 0px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.quote-text {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    text-align: left;
+    padding: 0 20% 0 20%;
+}
+
+.quote-author {
+    font-size: 24px;
+    font-weight: 600;
+    text-align: right;
+    padding-right: 25%;
+}
+
+.advert {
+    display: flex;
+    padding: 50px 120px 50px 120px;
+    border-radius: 8px;
+    margin: 100px 20%;
+    justify-content: space-between;
+    background-color: #3882F6;
+}
+
+.advert-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    gap: 4px;
+}
+
+.advert-text {
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+}
+
+.advert-subtext {
+    color: white;
+}
+
+.advert-signup-button {
+    color: white;
+    background: #3882F6;
+    border: 2px white solid;
+    border-radius: 8px;
+    padding: 0px 48px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
 }
