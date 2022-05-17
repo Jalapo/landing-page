@@ -141,7 +141,7 @@ body {
     padding-right: 25%;
 }
 
-.advert {
+.market {
     display: flex;
     padding: 50px 120px 50px 120px;
     border-radius: 8px;
@@ -150,29 +150,30 @@ body {
     background-color: #3882F6;
 }
 
-.advert-left {
+.market-left {
     display: flex;
     flex-direction: column;
     justify-content: left;
     gap: 4px;
 }
 
-.advert-text {
+.market-text {
     font-size: 24px;
     color: white;
     font-weight: bold;
 }
 
-.advert-subtext {
+.market-subtext {
     color: white;
 }
 
-.advert-signup-button {
+.market-signup-button {
     color: white;
     background: #3882F6;
     border: 2px white solid;
     border-radius: 8px;
-    padding: 0px 48px;
+    padding: 2px 48px;
+    margin: 6px 0px;
 }
 
 .footer {
